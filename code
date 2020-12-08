@@ -1,0 +1,13 @@
+class Student:
+
+    def __init__(this, name):
+        this.name = name
+
+    def display_info(this):
+        print("Hello, my name is", this.name)
+
+
+student1 = Student("Viktor")
+student1.display_info()
+student2 = Student("Max")
+student2.display_info()
